@@ -1,0 +1,58 @@
+:root {
+    --ig-font-family: "Montserrat";
+    --ig-elevation-factor: 0;
+    --ig-primary-h: 155deg;
+    --ig-primary-s: 49%;
+    --ig-primary-l: 55%;
+    --ig-secondary-h: 205deg;
+    --ig-secondary-s: 56%;
+    --ig-secondary-l: 29%;
+    --ig-error-h: 355deg;
+    --ig-error-s: 60%;
+    --ig-error-l: 50%;
+    --ig-success-h: 85deg;
+    --ig-success-s: 49%;
+    --ig-success-l: 55%;
+    --ig-warn-h: 24deg;
+    --ig-warn-s: 81%;
+    --ig-warn-l: 59%;
+    --ig-info-h: 179deg;
+    --ig-info-s: 52%;
+    --ig-info-l: 41%;
+    --ig-primary-800-contrast: black;
+    --ig-primary-900-contrast: black;
+    --ig-primary-A700-contrast: black;
+    --ig-secondary-200-contrast: white;
+    --ig-secondary-300-contrast: white;
+    --ig-secondary-400-contrast: white;
+    --ig-secondary-500-contrast: white;
+    --ig-secondary-A100-contrast: white;
+    --ig-secondary-A200-contrast: white;
+    --ig-error-500-contrast: white;
+    --ig-error-600-contrast: white;
+    --ig-error-A400-contrast: white;
+    --ig-success-900-contrast: black;
+    --ig-success-A700-contrast: black;
+    --ig-warn-900-contrast: white;
+    --ig-warn-A700-contrast: white;
+    --ig-info-600-contrast: black;
+    --ig-info-700-contrast: black;
+    --ig-info-800-contrast: black;
+    --ig-info-A400-contrast: black;
+}
+
+/* align icons in their containers */
+.material-icons, .imx-icon {
+  vertical-align: middle;
+}
+
+.ig-typography h1,
+.ig-typography h2,
+.ig-typography h3,
+.ig-typography h4,
+.ig-typography h5,
+.ig-typography h6,
+.ig-typography p,
+.ig-typography__body-1 {
+    margin: 0 !important;
+}
